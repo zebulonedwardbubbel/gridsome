@@ -4,10 +4,10 @@ import '~/assets/style/index.scss'
 // Import default layout so we don't need to import it to every page
 import DefaultLayout from '~/layouts/Default.vue'
 
-if ('scrollRestoration' in window.history) {
-  window.history.scrollRestoration = 'manual';
-  console.log(window.history.scrollRestoration);
-}
+// if ('scrollRestoration' in window.history) {
+//   window.history.scrollRestoration = 'manual';
+//   console.log(window.history.scrollRestoration);
+// }
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 export default function (Vue, { router, head, isClient }) {
